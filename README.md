@@ -133,3 +133,11 @@ If you have any questions or need support, feel free to reach out:
 - **Email**: [your-email@example.com](mailto:your-email@example.com)
 - **GitHub**: [https://github.com/meltash](https://github.com/meltash)
 
+![products](https://github.com/user-attachments/assets/6424496f-57fb-4cdc-a678-12e6f574bead)
+![products admin](https://github.com/user-attachments/assets/c5b0d091-3e8f-419a-be3a-c95b47785d70)
+![orders](https://github.com/user-attachments/assets/e7903fe1-bb48-43fd-8261-df091eca2739)
+![categories](https://github.com/user-attachments/assets/067a4894-515e-421a-a4f4-e90a2570fb0f)
+![cart](https://github.com/user-attachments/assets/df99e71a-7d8d-4bae-894f-71e8f58c9ac7)
+![admin](https://github.com/user-attachments/assets/9b2451c5-3737-401e-97eb-9669e8960b9e)
+![users](https://github.com/user-attachments/assets/9c2046ed-fb48-47c4-aabc-afb071a4b051)
+![user home](https://github.com/user-attachments/assets/f71e4292-1ce3-4bff-b823-d2c808728f80)
