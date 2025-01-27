@@ -104,18 +104,27 @@ This project is built with the following technologies:
 ### **User Interface:**
 
 #### Homepage:
-![Homepage Preview](images/homepage-preview.jpg)
+![user home](https://github.com/user-attachments/assets/172f0de4-86ea-457b-b970-01a50bd5f0b2)
 
 #### Product Page:
-![Product Page Preview](images/product-page-preview.jpg)
+![products](https://github.com/user-attachments/assets/d1a785a4-0706-4454-8c88-e3c39410ddeb)
+
+### Cart Page:
+![cart](https://github.com/user-attachments/assets/12175424-629f-455a-b960-84eb9700dd7c)
 
 ### **Admin Dashboard:**
 
-#### Admin Login:
-![Admin Login Preview](images/admin-login-preview.jpg)
-
 #### Admin Dashboard:
-![Admin Dashboard Preview](images/admin-dashboard-preview.jpg)
+![admin](https://github.com/user-attachments/assets/0ddf9930-028d-44cf-99fe-30066fa79e98)
+
+#### Admin products:
+![products admin](https://github.com/user-attachments/assets/7fdabe3f-99ad-489f-832c-4252b8843229)
+
+#### Admin Users
+![users](https://github.com/user-attachments/assets/2478e0ab-ff8d-43a7-83b6-b01e78c3c956)
+
+#### Admin Categories
+![categories](https://github.com/user-attachments/assets/bcd0303f-11db-43ac-9d84-4227352878a3)
 
 ---
 
@@ -148,12 +157,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### **Made with ❤️ by Geofery Mwathi**
 
-![users](https://github.com/user-attachments/assets/2478e0ab-ff8d-43a7-83b6-b01e78c3c956)
-![user home](https://github.com/user-attachments/assets/172f0de4-86ea-457b-b970-01a50bd5f0b2)
-![products](https://github.com/user-attachments/assets/d1a785a4-0706-4454-8c88-e3c39410ddeb)
-![products admin](https://github.com/user-attachments/assets/7fdabe3f-99ad-489f-832c-4252b8843229)
+
+
+
+
 ![orders](https://github.com/user-attachments/assets/db364bc2-ee22-4a2f-8125-10a07745910e)
-![categories](https://github.com/user-attachments/assets/bcd0303f-11db-43ac-9d84-4227352878a3)
-![cart](https://github.com/user-attachments/assets/12175424-629f-455a-b960-84eb9700dd7c)
-![admin](https://github.com/user-attachments/assets/0ddf9930-028d-44cf-99fe-30066fa79e98)
 
