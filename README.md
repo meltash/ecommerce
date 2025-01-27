@@ -126,6 +126,9 @@ This project is built with the following technologies:
 #### Admin Categories
 ![categories](https://github.com/user-attachments/assets/bcd0303f-11db-43ac-9d84-4227352878a3)
 
+#### Admin Orders
+![orders](https://github.com/user-attachments/assets/db364bc2-ee22-4a2f-8125-10a07745910e)
+
 ---
 
 ## 💡 **How to Contribute** 🌱
@@ -161,5 +164,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 
 
-![orders](https://github.com/user-attachments/assets/db364bc2-ee22-4a2f-8125-10a07745910e)
 
