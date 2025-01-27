@@ -1,138 +1,152 @@
-# ShopHub E-Commerce Website
 
-A modern e-commerce website that provides user authentication, product management, and shopping cart functionality. Admins have full control over the site, with the ability to manage products, categories, orders, and users.
+# **ShopHub E-Commerce Website 🛍️**
 
-## Features
+A modern e-commerce platform with user authentication, product management, shopping cart functionality, and an easy-to-use admin panel for efficient store management. Perfect for managing products, orders, categories, users, and more.
+
+---
+
+## 👤 **About Me**
+
+Hi there! I'm **Geofery Mwathi**, a passionate web developer with a love for building dynamic and user-friendly web applications. I specialize in front-end and back-end development, with expertise in PHP, JavaScript, HTML/CSS, and various modern frameworks. When I'm not coding, you can find me exploring new technologies or playing around with design tools.
+
+---
+
+## 🚀 **Features**
 
 ### **For Users:**
-- **User Authentication**: Users can register and log in to access their account.
-- **Product Catalog**: Users can browse through various products available in the store.
-- **Shopping Cart**: Users can add products to their cart and view the cart’s contents.
-- **Order Management**: Users can place orders and view their past order history.
+- **🔐 User Authentication**: Register and log in to access personalized features.
+- **📦 Product Catalog**: Browse a wide range of products.
+- **🛒 Shopping Cart**: Add products to your cart and proceed to checkout.
+- **📜 Order History**: Track and view past orders.
 
-### **For Admin:**
-- **Admin Login**: Admin can securely log in to manage the website.
-  - **Admin Login Link**: [http://localhost/ecommerce/admin/login.php](http://localhost/ecommerce/admin/login.php)
-- **Dashboard Overview**: Admin can view an overview of:
-  - Total Products
-  - Total Orders
-  - Low Stock Items
-  - Total Users
-- **Product Management**: Admin can:
-  - Add new products
-  - Edit or delete existing products
-- **Category Management**: Admin can:
-  - Add new categories
-  - Edit or delete existing categories
-- **Order Management**: Admin can view details of each order and change its status.
-- **User Management**: Admin can remove users from the system.
+### **For Admins:**
+- **🖥️ Admin Login**: Secure admin login to access the dashboard.
+  - [Admin Login Page](http://localhost/ecommerce/admin/login.php)
+- **📊 Dashboard**: View key metrics like total products, orders, low-stock items, and more.
+- **🛠️ Product Management**: Add, edit, or delete products in the catalog.
+- **📂 Category Management**: Create, update, or delete product categories.
+- **📑 Order Management**: Manage and update the status of customer orders.
+- **👤 User Management**: Remove users from the system if needed.
 
-## Installation
+---
 
-Follow these steps to get the **ShopHub E-Commerce Website** running locally:
+## 🛠️ **Technologies Used**
 
-### **Database Setup:**
+This project is built with the following technologies:
 
-1. **Install and Start XAMPP/WAMP Server:**
+### **Frontend:**
+- **HTML5** 📄
+- **CSS3** 🎨
+- **JavaScript** ⚡
+- **Tailwind CSS** 💨 (for styling)
+
+### **Backend:**
+- **PHP** 🖥️
+- **MySQL** 🗄️ (for database management)
+
+---
+
+## **Installation Guide** 📦
+
+### 1. **Database Setup:**
+
+- **Install XAMPP/WAMP**:
    - Download and install [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](https://www.wampserver.com/en/).
-   - Start the Apache and MySQL services.
+   - Start **Apache** and **MySQL** services.
 
-2. **Create the Database:**
-   - Open [phpMyAdmin](http://localhost/phpmyadmin) in your browser.
-   - Create a new database called **ecommerce**.
-   - Import the provided `database/ecommerce.sql` file into the newly created database. This will set up the required tables and sample data.
+- **Create and Import Database**:
+   - Open [phpMyAdmin](http://localhost/phpmyadmin).
+   - Create a new database named **ecommerce**.
+   - Import the `database/ecommerce.sql` file to create the necessary tables.
 
-### **Configuration:**
+### 2. **Configuration:**
+- Update database connection details in `php/db_connect.php` (if necessary):
+  ```php
+  $host = 'localhost';
+  $dbname = 'ecommerce';
+  $username = 'root';
+  $password = ''; // Default is empty
+  ```
 
-1. **Update Database Connection:**
-   - Open the file `php/db_connect.php`.
-   - Ensure the database connection settings are as follows:
-     ```php
-     $host = 'localhost';
-     $dbname = 'ecommerce';
-     $username = 'root';
-     $password = ''; // Default is empty
-     ```
+### 3. **Running the Website:**
+- **Place the project folder** in your web server directory:
+  - For **XAMPP**: `xampp/htdocs/ecommerce`
+  - For **WAMP**: `wamp/www/ecommerce`
 
-### **Running the Website:**
+- Start Apache and MySQL.
 
-1. **Place Project Folder:**
-   - Copy the `ecommerce` project folder to the following location based on your server:
-     - For **XAMPP**: `xampp/htdocs/ecommerce`
-     - For **WAMP**: `wamp/www/ecommerce`
+- Open your browser and navigate to:
+  - **User Landing Page**: [http://localhost/ecommerce/index.php](http://localhost/ecommerce/index.php)
+  - **Admin Login**: [http://localhost/ecommerce/admin/login.php](http://localhost/ecommerce/admin/login.php)
 
-2. **Start the Web Server:**
-   - Start Apache and MySQL services in XAMPP/WAMP.
+---
 
-3. **Access the Website:**
-   - Open your browser and navigate to:
-     - **User Landing Page**: [http://localhost/ecommerce/index.php](http://localhost/ecommerce/index.php)
-     - **Admin Login Page**: [http://localhost/ecommerce/admin/login.php](http://localhost/ecommerce/admin/login.php)
+## **Database Structure** 🗃️
 
-## Database Structure
+- **Users Table**: Stores user account details.
+- **Products Table**: Stores product details (name, price, stock, etc.).
+- **Cart Table**: Manages cart items.
+- **Orders Table**: Keeps track of customer orders and their status.
 
-The website uses the following database tables:
+---
 
-- **Users Table**: Stores user account information.
-- **Products Table**: Stores product details including name, price, stock, etc.
-- **Cart Table**: Manages items added to the shopping cart.
-- **Orders Table**: Manages placed orders with their statuses.
+## **Security Features** 🔐
 
-## Security Features
+- **Password Hashing**: All user passwords are securely hashed.
+- **SQL Injection Prevention**: Prepared statements are used to protect against SQL injection.
+- **Input Validation**: All user inputs are validated before being processed.
+- **Session Management**: Ensures users and admins remain securely logged in.
 
-The application includes the following security measures to ensure safe usage:
+---
 
-- **Password Hashing**: All user passwords are hashed before being stored in the database.
-- **SQL Injection Prevention**: Prepared statements are used to protect against SQL injection attacks.
-- **Input Validation**: User inputs are validated to prevent malicious data.
-- **Session Management**: Proper session handling ensures users and admins are securely logged in.
+## **Preview** 📸
 
-## Access Control:
+### **User Interface:**
 
-### **For Users:**
-- **Registration & Login**: Users can create an account and log in to view their cart and place orders.
-- **Product Viewing & Cart Management**: Users can add products to their cart and place an order once they’re ready.
+#### Homepage:
+![Homepage Preview](images/homepage-preview.jpg)
 
-### **For Admin:**
-- **Admin Panel**: Admins can log in to access a comprehensive dashboard where they can view:
-  - Total products
-  - Total orders
-  - Low-stock items
-  - Total registered users
-- **Product Management**: Admins can add new products, or edit/delete existing ones.
-- **Category Management**: Admins can manage product categories (add, edit, delete).
-- **Order Management**: Admins can view all orders and manage their statuses.
-- **User Management**: Admins can remove users from the system as necessary.
+#### Product Page:
+![Product Page Preview](images/product-page-preview.jpg)
 
-## Technologies Used
+### **Admin Dashboard:**
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL
-- **Server**: XAMPP/WAMP
+#### Admin Login:
+![Admin Login Preview](images/admin-login-preview.jpg)
 
-## Contributing
+#### Admin Dashboard:
+![Admin Dashboard Preview](images/admin-dashboard-preview.jpg)
 
-We welcome contributions! If you have suggestions or improvements, feel free to:
+---
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add new feature'`).
-5. Push to your forked repository (`git push origin feature-branch`).
-6. Submit a pull request for review.
+## 💡 **How to Contribute** 🌱
 
-## License
+Feel free to contribute to this project:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. **Fork the Repository**: Create a copy of this repository.
+2. **Create a New Branch**: `git checkout -b feature-branch`.
+3. **Make Changes**: Add your feature or fix bugs.
+4. **Commit Changes**: `git commit -m 'Add new feature'`.
+5. **Push to Your Fork**: `git push origin feature-branch`.
+6. **Create a Pull Request**: Open a pull request for review.
 
-## Contact
+---
 
-If you have any questions or need support, feel free to reach out:
+## 📬 **Contact Me**
 
 - **Email**: [your-email@example.com](mailto:your-email@example.com)
 - **GitHub**: [https://github.com/meltash](https://github.com/meltash)
+- **LinkedIn**: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 
+---
+
+## **License** 📜
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### **Made with ❤️ by Geofery Mwathi**
 
 ![users](https://github.com/user-attachments/assets/2478e0ab-ff8d-43a7-83b6-b01e78c3c956)
 ![user home](https://github.com/user-attachments/assets/172f0de4-86ea-457b-b970-01a50bd5f0b2)
